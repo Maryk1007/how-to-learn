@@ -298,11 +298,6 @@
   color: white;
 }
 
-.footer__column-heading {
-  margin: 0;
-  margin-bottom: 20px;
-}
-
 .footer__column-link {
   line-height: 30px;
   font-size: 18px;
@@ -322,6 +317,8 @@
   font-size: 18px;
   font-weight: 700;
   color: white;
+  margin: 0;
+  margin-bottom: 20px;
 }
 
 .footer__column_content_info {
