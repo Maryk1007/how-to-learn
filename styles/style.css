@@ -27,18 +27,21 @@
   position: absolute;
   top: 30px;
   left: 64px;
+  z-index: 2;
 }
 
 .header__title {
+  margin: 0;
+  margin-left: 64px;
   line-height: 96px;
   font-size: 102px;
   font-weight: 700;
   width: 730px;
-  margin-left: 64px;
   z-index: 2;
 }
 
 .header__subtitle {
+  margin: 0;
   width: 388px;
   position: absolute;
   left: 64px;
@@ -81,7 +84,6 @@
 
 .description {
   margin-top: 100px;
-  margin-bottom: 100px; 
 }
 
 .two-columns {
@@ -93,6 +95,7 @@
   
 
 .two-columns__brief {
+  margin: 0;
   width: 175px;
   margin-top: 0;
   line-height: 1.2;
@@ -124,6 +127,7 @@
   font-weight: 700;
 }
 .digits {
+  margin-top: 100px;
   margin-bottom: 100px;
 }
 
@@ -193,6 +197,7 @@
 .feynman__title {
   width: 648px;
   margin: 0 auto;
+  padding-top: 100px;
   text-align: center;
   line-height: 1.15;
   font-size: 120px;
@@ -220,6 +225,7 @@
 }
 
 .kaufman {
+  margin: 0;
   position: relative;
   overflow: hidden;
   display: flex;
@@ -230,10 +236,12 @@
 }
 
 .kaufman__triangle {
+  margin: 0;
+  background-image: url(../images/kaufman-triangle.svg);
   position: absolute;
-  right: -210px;
   width: 877px;
   height: 877px;
+  right: -210px;
   z-index: 0;
   margin-top: -90px;
 }
@@ -280,7 +288,9 @@
 
 .footer__column_content_copyright {
   flex-basis: 711px;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .logo_place_footer {
@@ -290,10 +300,9 @@
 }
 
 .footer__author {
-  position: absolute;
-  left: 0;
-  bottom: 18px;
-  margin-top: 18px;
+  margin: 0;
+  padding-top: 18px;
+  padding-bottom: 18px;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
